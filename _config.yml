@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      Rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Hi there!
+tagline:          'Hi, this is Jane Wu'
+description:      'Hi, this is Jane Wu'
+url:              https://janewu.co
+baseurl:          /
+
+author:
+  name:           'Jane Wu'
+  url:            https://twitter.com/cryp_TOTO
+
+
+gems:             [jekyll-paginate]
+paginate:         6
+
+collections:
+  blog:
+    output: true
+  sinoblog:
+    output: true
+# Custom vars
+version:          2.1.0
+
+# github:
+#  repo:           https://github.com/
