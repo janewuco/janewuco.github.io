@@ -6,9 +6,9 @@ highlighter:      Rouge
 permalink:        pretty
 
 # Setup
-title:            Hi there!
-tagline:          'Hi, this is Jane Wu'
-description:      'Hi, this is Jane Wu'
+title:            Jane Wu
+tagline:          ''
+description:      ''
 url:              https://janewu.co
 baseurl:          /
 
@@ -17,8 +17,10 @@ author:
   url:            https://twitter.com/cryp_TOTO
 
 
-gems:             [jekyll-paginate]
-paginate:         6
+plugins:          [jekyll-paginate]
+paginate:         5
+paginate_path:    "site/:num"
+
 
 collections:
   blog:

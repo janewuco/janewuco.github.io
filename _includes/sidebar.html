@@ -7,15 +7,19 @@
         </a>
       </h1>
       <p class="lead">{{ site.description }}</p>
+      <div class="sidebar-about-info">
+          <a href="https://www.linkedin.com/in/hijane/"><i class="fa fa-github" title="Linkedin">Linkedin</i></a>
+            <a href="https://twitter.com/cryp_TOTO"><i class="fa fa-twitter" title="Twitter">Twitter</i></a>
+
+        </div>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">About</a>
       <a class="sidebar-nav-item" href="/projects">Projects</a>
       <a class="sidebar-nav-item" href="/blog">Blog</a>
       <a class="sidebar-nav-item" href="/sinoblog">Sino Blog</a>
+      <a class="sidebar-nav-item" href="/feed.xml">RSS</a>
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }} Jane Wu. All rights reserved.</p>
   </div>
 </div>

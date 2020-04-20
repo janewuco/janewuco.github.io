@@ -428,3 +428,59 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: transparent;
+}
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+    -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.3);
+    margin-bottom:1em;
+}
+.center-image-plain
+{
+    margin: 0 auto;
+    display: block;
+    margin-bottom:1em;
+}
+.rounded {
+    border-radius: 100%;
+}
+
+
+
+.flex-container {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    -webkit-flex-direction: row; /* Safari */
+    flex-direction:         row;
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap:         wrap;
+-webkit-justify-content: space-between; /* Safari */
+  justify-content:         space-between;
+
+    -webkit-align-content: flex-start; /* Safari */
+      align-content:         flex-start;
+
+        -webkit-align-items: baseline; /* Safari */
+          align-items:      baseline;
+
+
+}
+
+
+        .bio-info {
+            padding: 0.1rem 1rem;
+            margin:0
+        }
+        #bio-pic {
+width: 10rem; margin:0; float:left; padding: 1rem;
+        }
+        #bio-text {
+padding: 0.1rem 1rem; text-align:justify;
+        }

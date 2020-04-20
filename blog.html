@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Blog
 ---
 
@@ -14,7 +14,7 @@ title: Blog
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>
