@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jane Wu
+title: Hi, I'm Jane Wu
 ---
 
 The path that led me here is winding. I was trained to be a programmer at college but did not really enjoy it as I’m more fond of having conversations with people. I got my start in media, as an intern at Phoenix TV in Beijing working on social issue documentaries, as a reporter covering fund things in India and South Korea at Financial Times, later as a features editor covering fun stuff and people at ELLE- the later two were before I moved to the U.S. from Hong Kong.
