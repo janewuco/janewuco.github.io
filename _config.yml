@@ -7,26 +7,25 @@ permalink:        pretty
 
 # Setup
 title:            Jane Wu
-tagline:          ''
-description:      ''
+tagline:          ""
+description:      ""
 url:              https://janewuco.github.io
-baseurl:          "/"
 
 author:
   name:           'Jane Wu'
   url:            https://twitter.com/cryp_TOTO
 
 
-plugins:          ["jekyll-paginate"]
+plugins:          [jekyll-paginate]
 paginate:         3
-paginate_path:    "page/:num"
+paginate_path:    "site/:num"
 timezone            : null
 
 google_analytics: ""
 
 
 show_excerpts: true
-# Handling Reading
+# Handling Readings
 safe                : false
 include             : [".htaccess"]
 exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
@@ -35,13 +34,12 @@ encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
 strict_front_matter : false
 
-# Custom vars
-version:          2.1.0
-
-
 twitter_username:
 github_username:
 linkedin_username:
+
+
+
 
 # github:
 #  repo:           https://github.com/
