@@ -18,7 +18,7 @@ author:
 
 plugins:          [jekyll-paginate]
 paginate:         3
-paginate_path:    "site/:num"
+paginate_path:    "/archive/page:num"
 timezone            : null
 
 google_analytics: ""
