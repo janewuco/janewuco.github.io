@@ -7,4 +7,4 @@ The path that led me here is winding. Born and raised in China, I was trained to
 
 These days I find myself in a different career, working on the story-telling side of tech startups, most recently with blockchain project Nervos. I came across crypto in 2017, quite randomly and it’s always happening and I’m still curious and wanted to learn more. I curate a weekly newsletter about crypto China and write here from time to time.
 
-I am also a proud mom of a little girl who wishes to be a dinosaur when grow-up.
+
